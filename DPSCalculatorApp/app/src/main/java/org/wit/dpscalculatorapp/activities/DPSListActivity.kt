@@ -69,7 +69,16 @@ class DPSListActivity : AppCompatActivity(), DDListener, DOTListener {
     }
 
     private fun searchDPSDOT() {
-        val term = binding.valSearchDOT.text.toString().toFloatOrNull() ?: return
+
+        val term = binding.valSearchDOT.text.toString().toFloatOrNull()
+
+        if(term == null){
+            dotDisplay = app.dots.findAll()
+            loadData()
+            return
+        }
+
+
 
         dotDisplay = app.dots.searchDOTForHighDPS(term)
         loadData()
@@ -83,7 +92,13 @@ class DPSListActivity : AppCompatActivity(), DDListener, DOTListener {
     }
 
     private fun searchDPSDD() {
-        val term = binding.valSearchDD.text.toString().toFloatOrNull() ?: return
+        val term = binding.valSearchDD.text.toString().toFloatOrNull()
+
+        if(term == null){
+            ddDisplay = app.dds.findAll()
+            loadData()
+            return
+        }
 
         ddDisplay = app.dds.searchDDForHighDPS(term)
         loadData()
