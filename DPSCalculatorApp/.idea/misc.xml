@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/layout/activity_DOT.xml" value="0.1" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/layout/activity_DoT.xml" value="0.1546875" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/layout/activity_damage.xml" value="0.13229166666666667" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/layout/activity_damage_list.xml" value="0.4" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/layout/activity_ddactivity.xml" value="0.264" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/layout/activity_dotactivity.xml" value="0.264" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/layout/activity_main.xml" value="0.12613981762917933" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/layout/card_damage.xml" value="0.13229166666666667" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/layout/card_placemark.xml" value="0.1" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/menu/menu_dps.xml" value="0.13385416666666666" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/menu/menu_main.xml" value="0.264" />
+        <entry key="..\:/Year 4/Mobile-App-Dev/DPSCalculatorApp/app/src/main/res/menu/menu_placemark.xml" value="0.23703703703703705" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

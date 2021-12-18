@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.wit.dpscalculatorapp.activities.DPSListActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="184dp"
+                    android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal">
+
+                                                <Button
+                                                    android:id="@+id/searchDOTName"
+                                                    android:layout_width="126dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_weight="1"
+                                                    android:text="Search DOT Name" />
+
+                                                <Button
+                                                    android:id="@+id/searchDOTDPS"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_weight="1"
+                                                    android:text="Search DPS" />
+                                        </LinearLayout>
+
+                                        <EditText
+                                            android:id="@+id/valSearchDOT"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_margin="8dp"
+                                            android:hint="@string/search_hint"
+                                            android:inputType="text"
+                                            android:maxLength="25"
+                                            android:maxLines="1"
+                                            android:minHeight="48dp"
+                                            android:padding="8dp"
+                                            android:textColor="@color/colorPrimaryDark"
+                                            android:textSize="14sp" />
+
+                                </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal">
+
+                                                <Button
+                                                    android:id="@+id/searchDDName"
+                                                    android:layout_width="121dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_weight="1"
+                                                    android:text="Search DD Name" />
+
+                                                <Button
+                                                    android:id="@+id/searchDDDPS"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_weight="1"
+                                                    android:text="Search DPS" />
+                                        </LinearLayout>
+
+                                        <EditText
+                                            android:id="@+id/valSearchDD"
+                                            android:layout_width="269dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_margin="8dp"
+                                            android:hint="@string/search_hint"
+                                            android:inputType="text"
+                                            android:maxLength="25"
+                                            android:maxLines="1"
+                                            android:minHeight="48dp"
+                                            android:padding="8dp"
+                                            android:textColor="@color/colorPrimaryDark"
+                                            android:textSize="14sp" />
+                                </LinearLayout>
+
+                        </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/DOTView"
+                            android:layout_width="202dp"
+                            android:layout_height="match_parent"
+                            android:scrollbars="vertical"
+                            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/DDView"
+                            android:layout_width="193dp"
+                            android:layout_height="match_parent"
+                            android:scrollbars="vertical"
+                            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                </LinearLayout>
+        </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DPSCalculatorApp</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="select_dps_image">Select image</string>
+
+    <string name="select_dps_name">Name</string>
+
+    <string name="select_dps_tickTime">Tick Time</string>
+    <string name="select_dps_damagePerTick">Damage Per Tick</string>
+    <string name="select_dps_initialDamage">initial Damage</string>
+    <string name="select_dps_duration">Duration</string>
+    <string name="select_dps_percentIncreasePerTick">Percent Increase Per Tick</string>
+    <string name="select_dps_dpsDuration">DPS Duration</string>
+
+    <string name="select_dps_damagePerHit">Damage Per Hit</string>
+    <string name="select_dps_timeBetweenAttacks">Time Between Attacks</string>
+    <string name="select_dps_numberOfProjectiles">Number of Projectiles</string>
+    <string name="select_dps_reloadSpeed">Reload Speed</string>
+    <string name="select_dps_magSize">Magazine Size</string>
+
+    <string name="search_hint">Input Name / Val</string>
+
+    <string name="add_Dot">Add Damage Over Time</string>
+    <string name="save_edit">Save Edit</string>
+
+    <string name="add_DD">Add Direct Damage</string>
+    <string name = "dps_delete">Delete</string>
+
+    <string name="hint_name">Name</string>
+
+    <string name="invalidInput">Input is invalid, check for letters in number values</string>
+</resources>

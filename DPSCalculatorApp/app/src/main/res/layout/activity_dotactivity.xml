@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DOTActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:autofillHints="Name"
+            android:hint="@string/hint_name"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/initialDamage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/select_dps_initialDamage"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/tickTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/select_dps_tickTime"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/damagePerTick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/select_dps_damagePerTick"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/select_dps_duration"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/percentIncreasePerTick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/select_dps_percentIncreasePerTick"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@color/colorAccent"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:stateListAnimator="@null"
+                android:text="@string/add_Dot"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/removebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dps_delete" />
+
+    </LinearLayout>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+<!--
+    var id: Long = 0,
+    var name: String = "UNKWN",
+    var tickTime: Float = 0f,
+    var damagePerTick: Float = 0f,
+    var initialDamage: Float = 0f,
+    var duration: Float = 0f,
+    var percentIncreasePerTick: Float = 0f,
+
+-->
